@@ -60,7 +60,7 @@ Following are the parameters that have to be passed to the application:
 ###### How to run .NET Core Sample
 
 ```sh
-dotnet XMSCoreOneQueue.dll -q Q1 -h remotehost -p 1414 -l SYSTEM.DEF.SVRCONN -msgType 1 -n 10000 -msgSize 256 -qm Test1 -t 10 -shareCnv false 
+dotnet XMSOneQueue.dll -q Q1 -h remotehost -p 1414 -l SYSTEM.DEF.SVRCONN -msgType 1 -n 10000 -msgSize 256 -qm Test1 -t 10 -shareCnv false 
 ```
 
 ###### How to run .NET Framework Sample
